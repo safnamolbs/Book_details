@@ -1,0 +1,30 @@
+# class student(models.Model):
+#     name=models.CharField(max_length=30)
+#     place=models.CharField(max_length=30)
+#     subject=models.CharField(max_length=30)
+#     age=models.PositiveIntegerField()
+#     gender=models.CharField(max_length=30)    
+
+
+#env\Scripts\activate.bat
+#django-admin startproject projectname
+#python manage.py runserver
+#python manage.py startapp app name
+#python manage.py makemigrations
+#python manage.py migrate
+#django default db sqlite3 
+#python manage.py shell
+#from work.models import employee
+#orm query :model.object.create(name,age)
+# to retrive variable name  s=modelname.objects.all()
+
+#models: which is used to perform certain actions using data eg: CRUD(create,read/retrieve,update,delete)
+
+create models in jango using html
+
+first create cls in models-then makemigrations--migrate--forms---views-----next step add html page----urls---python runserver
+
+
+
+form.save():method to add the data into database without using orm query(only for modelfornms)
+book.objects.create(**form.cleaned_data)==ORM query
